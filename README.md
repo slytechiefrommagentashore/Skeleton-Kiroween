@@ -21,7 +21,7 @@ Building fullstack applications is repetitive. Developers spend countless hours:
 
 ## 💡 The Solution
 
-**Kiroween** is a universal skeleton that provides:
+**Universal Skeleton** is a universal Solution that provides:
 - ✅ **Battle-tested architecture** proven across multiple domains
 - ✅ **100% consistency** - identical patterns, predictable structure
 - ✅ **Type-safe** - TypeScript + Zod from database to UI

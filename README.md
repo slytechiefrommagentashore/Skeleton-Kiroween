@@ -203,13 +203,14 @@ context.log(randomArt);  // Ghost, pumpkin, bat, skull, witch, spider
 ### Main Documents
 - **[README.md](README.md)** - This file
 - **[SKELETON-CREW-SUBMISSION.md](SKELETON-CREW-SUBMISSION.md)** - Detailed submission
-- **[KIRO-USAGE-WRITEUP.md](KIRO-USAGE-WRITEUP.md)** - How Kiro was used
-- **[.kiro/specs/skeleton-architecture.md](.kiro/specs/skeleton-architecture.md)** - Architecture blueprint (400+ lines)
+- **[kiro-usage.md](kiro-usage.md)** - How Kiro was used
+- **[kiroween/.kiro/specs/skeleton-architecture.md](kiroween/.kiro/specs/skeleton-architecture.md)** - Architecture blueprint (400+ lines)
+- **[kiroween/.kiro/specs/spooky-terminology-reference.md](kiroween/.kiro/specs/spooky-terminology-reference.md) - Grimiore terms references
 
 ### Kiro Integration
-- **[.kiro/specs/app-tasks/](.kiro/specs/app-tasks/)** - Complete spec example
-- **[.kiro/steering/style.md](.kiro/steering/style.md)** - Coding guidelines
-- **[.kiro/hooks/pre-generate.js](.kiro/hooks/pre-generate.js)** - Pre-generate hook
+- **[kiroween/.kiro/specs/app-tasks](kiroween/.kiro/specs/app-tasks)** - Complete spec example
+- **[kiroween/.kiro/steering/style.md](kiroween/.kiro/steering/style.md)** - Coding guidelines
+- **[kiroween/.kiro/hooks/pre-generate.js](kiroween/.kiro/hooks/hooks/pre-generate.js)** - Pre-generate hook
 
 ---
 
@@ -365,7 +366,7 @@ Built for **Kiroween Hackathon 2025** with:
 
 ## 📞 Contact
 
-- **GitHub**: [YOUR-USERNAME](https://github.com/slytechiefrommagentashore)
+- **GitHub**: [slytechiefrommagentshore](https://github.com/slytechiefrommagentashore)
 - **Hackathon**: [Kiroween 2025](https://kiroween.devpost.com/)
 
 ---

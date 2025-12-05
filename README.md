@@ -72,8 +72,22 @@ npm install && npm run dev
 ### Or Try app-grimoire (Spellbook) 🔮
 
 ```bash
-cd app-grimoire
-QUICK-START.bat  # Windows quick setup
+cd app-grimoire/backend
+npm install
+npm run dev
+
+use another terminal
+cd app-grimoire/frontend
+npm install
+npm run dev
+# Visit http://localhost:5173 for spooky experience!
+```
+
+### Or Try app-tasks minimalist
+
+```bash
+cd app-tasks
+npm run dev
 # Visit http://localhost:5173 for spooky experience!
 ```
 

@@ -1,4 +1,5 @@
-# 🎃 Kiroween - Universal Fullstack Skeleton
+# 🎃 Kiroween Hackathon Project - Universal Skeleton: From Productivity to Paranormal
+One Skeleton, Two Souls: A universal full-stack architecture powering both productivity and paranormal apps.
 
 > **Kiroween Hackathon 2025 - Skeleton Crew Category**
 

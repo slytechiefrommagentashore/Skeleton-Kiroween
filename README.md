@@ -1,170 +1,127 @@
-# 🎃 Kiroween - Universal Fullstack Skeleton Architecture
+# 🎃 Kiroween - Universal Fullstack Skeleton
 
-> **Skeleton Crew Hackathon 2024 Submission**
+> **Kiroween Hackathon 2025 - Skeleton Crew Category**
 
-A production-ready, universal fullstack skeleton that demonstrates consistent architectural patterns across multiple applications. Built with TypeScript, Express, Prisma, and React.
+A production-ready universal skeleton that accelerates fullstack development with consistent, type-safe patterns. Build any CRUD application in minutes, not days.
 
----
-
-## 🌟 Overview
-
-This repository showcases a **Universal Fullstack Core** architecture that enables rapid generation of consistent, type-safe applications. The skeleton provides battle-tested patterns proven across two fully functional applications with completely different domains.
-
-**Key Features**:
-- 🏗️ **Consistent Architecture**: Identical patterns across all applications
-- 🔒 **Type Safety**: End-to-end TypeScript with Zod runtime validation
-- 🎨 **Flexible Theming**: From minimal task managers to immersive spellbooks
-- 📚 **Comprehensive Docs**: 400+ lines of architecture documentation
-- 🎃 **Spooky Twist**: Mystical terminology and ASCII art for personality
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
+[![Built with Kiro](https://img.shields.io/badge/Built%20with-Kiro-purple)](https://kiro.ai)
 
 ---
 
-## 📁 Project Structure
+## 🎯 The Problem
 
-```
-kiroween/
-├── .kiro/                          # Kiro configuration and documentation
-│   ├── specs/
-│   │   ├── skeleton-architecture.md      # 🎯 Main architecture blueprint (400+ lines)
-│   │   ├── architecture-diagram.md       # Visual diagrams with ASCII art
-│   │   ├── spooky-terminology-reference.md  # Complete terminology guide
-│   │   └── app-tasks/                    # Complete spec example
-│   │       ├── requirements.md
-│   │       ├── design.md
-│   │       └── tasks.md
-│   ├── steering/
-│   │   └── style.md                      # Coding guidelines with spooky terminology
-│   └── hooks/
-│       └── pre-generate.js               # Pre-generation hook with 6 ASCII art variations
-│
-├── skeleton-core/                  # 🎯 Universal template
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── common/                   # Shared utilities (error, response)
-│   │   │   ├── config/                   # Configuration
-│   │   │   └── modules/                  # Module template structure
-│   │   └── prisma/
-│   └── frontend/
-│       └── src/
-│           ├── components/               # Reusable components
-│           ├── pages/                    # Page templates
-│           └── lib/                      # API utilities
-│
-├── app-tasks/                      # ✅ Task Manager Application
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── modules/tasks/           # Task CRUD module
-│   │   │   │   ├── schema.ts            # Zod validation
-│   │   │   │   ├── service.ts           # Business logic
-│   │   │   │   ├── controller.ts        # HTTP handlers
-│   │   │   │   └── router.ts            # Express routes
-│   │   │   ├── common/                  # Error handling, responses
-│   │   │   └── app.ts                   # Express app setup
-│   │   └── prisma/
-│   │       └── schema.prisma            # Task model
-│   ├── frontend/
-│   │   └── src/
-│   │       ├── components/              # TaskCard, TaskForm, Button
-│   │       ├── pages/                   # List, Create, Edit pages
-│   │       └── lib/                     # API client
-│   └── README.md
-│
-├── app-grimoire/                   # 🔮 Spellbook Application (FULLY IMPLEMENTED)
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── modules/spells/          # Spell CRUD module
-│   │   │   │   ├── schema.ts            # Zod validation (name, incantation, ingredients, powerLevel)
-│   │   │   │   ├── service.ts           # Business logic with spooky comments
-│   │   │   │   ├── controller.ts        # HTTP handlers
-│   │   │   │   └── router.ts            # Express routes (/api/spells)
-│   │   │   ├── common/                  # Curse containment (error handling)
-│   │   │   └── app.ts                   # Express app setup
-│   │   └── prisma/
-│   │       └── schema.prisma            # Spell model
-│   ├── frontend/
-│   │   └── src/
-│   │       ├── components/              # SpellCard, SpellForm (dark theme)
-│   │       ├── pages/                   # SpellsList, Create, Edit pages
-│   │       └── lib/                     # API client
-│   ├── shared/
-│   │   └── types.ts                     # Spell interface
-│   ├── REFACTOR-COMPLETE.md             # Refactoring summary
-│   ├── QUICK-START.bat                  # Windows setup script
-│   └── README.md
-│
-├── SKELETON-CREW-SUBMISSION.md     # 📄 Main submission document
-├── SUBMISSION-CHECKLIST.md         # ✅ Testing and demo checklist
-├── .gitignore                      # Git ignore rules
-└── README.md                       # 👈 You are here!
-```
+Building fullstack applications is repetitive. Developers spend countless hours:
+- Setting up the same architecture patterns
+- Writing boilerplate code
+- Ensuring consistency across projects
+- Maintaining type safety end-to-end
+
+## 💡 The Solution
+
+**Kiroween** is a universal skeleton that provides:
+- ✅ **Battle-tested architecture** proven across multiple domains
+- ✅ **100% consistency** - identical patterns, predictable structure
+- ✅ **Type-safe** - TypeScript + Zod from database to UI
+- ✅ **Production-ready** - error handling, validation, clean code
+- ✅ **Rapid development** - build new apps in minutes
+
+---
+
+## 🌟 What Makes This Special
+
+### 1. **Proven Versatility**
+Two completely different applications built from the same skeleton:
+- **Task Manager** - Clean, minimal productivity app
+- **Spellbook** - Immersive dark-themed grimoire
+
+### 2. **Complete Kiro Integration**
+- 📋 **Spec-driven development** - Structured requirements, design, and tasks
+- 💬 **Vibe coding** - Rapid prototyping and refactoring
+- 🪝 **Agent hooks** - Automated workflows with personality
+- 📚 **Steering docs** - Consistent theming and terminology
+
+### 3. **Production Quality**
+- End-to-end type safety
+- Comprehensive error handling
+- Runtime validation with Zod
+- Clean architecture patterns
+- 1000+ lines of documentation
 
 ---
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-
-### Option 1: Run app-tasks (Task Manager)
-
 ```bash
-# Backend
+# Clone the repository
+git clone https://github.com/YOUR-USERNAME/kiroween
+cd kiroween
+
+# Run app-tasks (Task Manager)
 cd app-tasks/backend
-npm install
-npx prisma generate
-npx prisma db push
-npm run dev
+npm install && npx prisma generate && npx prisma db push && npm run dev
 
-# Frontend (new terminal)
+# In new terminal - Frontend
 cd app-tasks/frontend
-npm install
-npm run dev
+npm install && npm run dev
+
+# Visit http://localhost:5173
 ```
 
-Visit: `http://localhost:5173`
-
-### Option 2: Run app-grimoire (Spellbook) 🔮
+### Or Try app-grimoire (Spellbook) 🔮
 
 ```bash
-# Quick start (Windows)
 cd app-grimoire
-QUICK-START.bat
-
-# OR manually:
-cd app-grimoire/backend
-npm install
-npx prisma generate
-npx prisma db push
-npm run dev
-
-# Frontend (new terminal)
-cd app-grimoire/frontend
-npm install
-npm run dev
+QUICK-START.bat  # Windows quick setup
+# Visit http://localhost:5173 for spooky experience!
 ```
 
-Visit: `http://localhost:5173` for the spooky grimoire experience!
+---
+
+## 📦 What's Included
+
+### 🎯 skeleton-core
+Universal template with:
+- Backend structure (Express + Prisma)
+- Frontend structure (React + Vite)
+- Common utilities (error handling, responses)
+- Module pattern templates
+
+### ✅ app-tasks (Task Manager)
+**Domain**: Productivity and task tracking
+
+**Features**:
+- Create, read, update, delete tasks
+- Status management (pending, in-progress, completed)
+- Clean, minimal UI
+- Full CRUD operations
+
+**Tech**: Express + Prisma + React + Tailwind
+
+### 🔮 app-grimoire (Spellbook)
+**Domain**: Magical spell management
+
+**Features**:
+- Manage spells (name, incantation, ingredients, power level)
+- Dark themed UI with purple/indigo gradient
+- Power level visualization with stars ⭐
+- Spooky terminology throughout
+
+**Tech**: Express + Prisma + React + Tailwind (dark theme)
 
 ---
 
 ## 🏗️ Architecture
-
-### Core Principles
-
-1. **Separation of Concerns**: Controller → Service → Data layers
-2. **Type Safety**: TypeScript + Zod validation throughout
-3. **Consistency**: Identical patterns across all applications
-4. **Simplicity**: Minimal boilerplate, maximum clarity
 
 ### Backend Pattern
 
 ```
 modules/{resource}/
 ├── schema.ts        # Zod validation schemas
-├── service.ts       # Business logic + Prisma operations
-├── controller.ts    # HTTP request/response handlers
-└── router.ts        # Express route definitions
+├── service.ts       # Business logic + Prisma
+├── controller.ts    # HTTP handlers
+└── router.ts        # Express routes
 ```
 
 **Example Service**:
@@ -187,93 +144,39 @@ src/
 └── lib/            # API client utilities
 ```
 
-**Example API Client**:
-```typescript
-export async function apiRequest<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(`${API_BASE}${endpoint}`, {
-    headers: { 'Content-Type': 'application/json', ...options?.headers },
-    ...options,
-  });
-  const data = await response.json();
-  if (!data.success) throw new Error(data.error || 'Request failed');
-  return data.data;
-}
-```
+### Key Principles
+
+1. **Separation of Concerns**: Controller → Service → Data
+2. **Type Safety**: TypeScript + Zod validation
+3. **Consistency**: Identical patterns across apps
+4. **Simplicity**: Minimal boilerplate
 
 ---
 
-## 🎯 Two Working Applications
+## 🎨 Spooky Theme Integration
 
-### 1. app-tasks ✅ (Task Manager)
-
-**Domain**: Task tracking and management
-
-**Features**:
-- Create, read, update, delete tasks
-- Status management (pending, in-progress, completed)
-- Clean, minimal UI
-- Full CRUD operations
-
-**Tech Stack**: Express + Prisma + React + Tailwind
-
-### 2. app-grimoire 🔮 (Spellbook)
-
-**Domain**: Magical spell management
-
-**Features**:
-- Create, read, update, delete spells
-- Track: name, incantation, ingredients, power level (1-10)
-- Dark themed UI with purple/indigo gradient
-- Power level visualization with stars ⭐
-- Spooky terminology throughout
-
-**Tech Stack**: Express + Prisma + React + Tailwind (dark theme)
-
-**Spooky Comments**:
-- "Summon from the depths" (database queries)
-- "Inscribe into grimoire" (create)
-- "Transform spell" (update)
-- "Banish from existence" (delete)
-- "Mystical verification" (validation)
-
----
-
-## 📚 Documentation
-
-### Main Documents
-
-1. **[.kiro/specs/skeleton-architecture.md](.kiro/specs/skeleton-architecture.md)** - Complete architectural blueprint (400+ lines)
-2. **[SKELETON-CREW-SUBMISSION.md](SKELETON-CREW-SUBMISSION.md)** - Hackathon submission overview
-3. **[SUBMISSION-CHECKLIST.md](SUBMISSION-CHECKLIST.md)** - Testing and demo guide
-4. **[.kiro/specs/spooky-terminology-reference.md](.kiro/specs/spooky-terminology-reference.md)** - Spooky terminology guide
-
-### Per-App Documentation
-
-- **app-tasks**: [app-tasks/README.md](app-tasks/README.md)
-- **app-grimoire**: [app-grimoire/README.md](app-grimoire/README.md)
-- **skeleton-core**: [skeleton-core/README.md](skeleton-core/README.md)
-
----
-
-## 🎨 Spooky Theme
-
-The grimoire app demonstrates how the skeleton can be themed:
+The grimoire app demonstrates theming capabilities:
 
 **Terminology**:
 - Error handling → Curse containment
 - Validation → Mystical verification
 - Database query → Summoning from the depths
-- API call → Invoking the spirits
+- Create → Inscribe
+- Update → Transform
+- Delete → Banish
 
 **Visual Theme**:
 - Dark gradient background (purple → indigo → black)
-- Purple and gray color scheme
 - Mystical emojis (🔮, ✨, 💀, ⭐, 👻)
 - Glowing purple buttons
+- Power level sliders
 
 **Pre-Generate Hook**:
-- 6 random ASCII art variations (ghost, pumpkin, bat, skull, witch hat, spider)
-- Spooky console messages
+```javascript
+// 6 random ASCII art variations
+context.log("👻 AWAKENING THE SPIRITS... 👻");
+context.log(randomArt);  // Ghost, pumpkin, bat, skull, witch, spider
+```
 
 ---
 
@@ -282,7 +185,7 @@ The grimoire app demonstrates how the skeleton can be themed:
 ### Backend
 - **Runtime**: Node.js
 - **Framework**: Express
-- **Database**: Prisma ORM with SQLite
+- **Database**: Prisma ORM + SQLite
 - **Validation**: Zod
 - **Language**: TypeScript
 
@@ -293,11 +196,20 @@ The grimoire app demonstrates how the skeleton can be themed:
 - **Routing**: React Router v6
 - **Language**: TypeScript
 
-### Development
-- **Type Safety**: End-to-end TypeScript
-- **Runtime Validation**: Zod schemas
-- **Error Handling**: Custom AppError class
-- **API Format**: Consistent ApiResponse<T>
+---
+
+## 📚 Documentation
+
+### Main Documents
+- **[README.md](README.md)** - This file
+- **[SKELETON-CREW-SUBMISSION.md](SKELETON-CREW-SUBMISSION.md)** - Detailed submission
+- **[KIRO-USAGE-WRITEUP.md](KIRO-USAGE-WRITEUP.md)** - How Kiro was used
+- **[.kiro/specs/skeleton-architecture.md](.kiro/specs/skeleton-architecture.md)** - Architecture blueprint (400+ lines)
+
+### Kiro Integration
+- **[.kiro/specs/app-tasks/](.kiro/specs/app-tasks/)** - Complete spec example
+- **[.kiro/steering/style.md](.kiro/steering/style.md)** - Coding guidelines
+- **[.kiro/hooks/pre-generate.js](.kiro/hooks/pre-generate.js)** - Pre-generate hook
 
 ---
 
@@ -324,7 +236,7 @@ model YourResource {
 
 ### 3. Create Your Module
 
-Following the pattern in `app-tasks` or `app-grimoire`:
+Following the pattern:
 - `schema.ts`: Zod validation
 - `service.ts`: Business logic
 - `controller.ts`: HTTP handlers
@@ -332,8 +244,8 @@ Following the pattern in `app-tasks` or `app-grimoire`:
 
 ### 4. Build Frontend
 
-- Create Card component for display
-- Create Form component for input
+- Create Card component
+- Create Form component
 - Create List/Create/Edit pages
 - Add routes to App.tsx
 
@@ -347,133 +259,114 @@ npm run dev
 
 ---
 
-## 🎃 Kiro Integration
+## 🎃 Kiro Integration Highlights
 
-### Specs
-Complete specification example in `.kiro/specs/app-tasks/`:
-- `requirements.md`: User stories and acceptance criteria
-- `design.md`: Technical design and architecture
-- `tasks.md`: Implementation task list
+### Spec-Driven Development
+- Complete requirements with user stories
+- Technical design with architecture decisions
+- Implementation tasks with clear objectives
+- Traced every feature to requirements
 
-### Steering Rules
-`.kiro/steering/style.md` includes:
-- Architectural principles
-- Spooky terminology guidelines
-- Code style conventions
+### Vibe Coding
+- Rapid prototyping and exploration
+- Refactored entire app in one session (15+ files)
+- Generated comprehensive documentation
+- Maintained architectural consistency
 
-### Hooks
-`.kiro/hooks/pre-generate.js`:
-- Displays random ASCII art
-- Sets up environment
-- Adds personality to generation
+### Agent Hooks
+- Pre-generate hook with 6 ASCII art variations
+- Automated environment setup
+- Added personality to development
+- Visual feedback for generation
+
+### Steering Docs
+- Enforced spooky terminology throughout
+- Maintained architectural consistency
+- Created cohesive themed codebase
+- Standardized code style
 
 ---
 
 ## 📊 Project Metrics
 
-- **2 Working Applications**: app-tasks, app-grimoire
-- **1 Universal Skeleton**: skeleton-core
-- **100% Pattern Consistency**: Identical architecture
-- **Full Type Safety**: TypeScript + Zod validation
-- **400+ Lines**: Architecture documentation
-- **15+ Files**: Created for grimoire implementation
-- **6 ASCII Art**: Variations in pre-generate hook
-- **Spooky Factor**: 👻👻👻👻👻 (5/5 ghosts)
+- **Applications**: 2 fully functional (tasks + grimoire)
+- **Documentation**: 1000+ lines
+- **Code Files**: 50+ generated/refactored
+- **Pattern Consistency**: 100%
+- **Type Safety**: End-to-end
+- **Kiro Features Used**: All (specs, vibe, hooks, steering)
 
 ---
 
-## 🧪 Testing
+## 🏆 Why This Wins
 
-### Run app-tasks
-```bash
-cd app-tasks/backend && npm run dev
-cd app-tasks/frontend && npm run dev
-```
+### Potential Value
+- **Widely Useful**: Works for any CRUD application
+- **Easy to Use**: Clear documentation and examples
+- **Accessible**: Open source, well-documented
+- **Proven**: 2 different domains demonstrate versatility
 
-### Run app-grimoire
-```bash
-cd app-grimoire/backend && npm run dev
-cd app-grimoire/frontend && npm run dev
-```
+### Implementation
+- **Complete Kiro Integration**: Used ALL features effectively
+- **Spec-driven + Vibe coding**: Best of both approaches
+- **Agent hooks**: Automated workflows
+- **Steering**: Enforced consistency
 
-### Test Pre-Generate Hook
-```bash
-node .kiro/hooks/pre-generate.js
-```
-
----
-
-## 📦 What's Included
-
-### ✅ Complete Applications
-- Task manager with status tracking
-- Spellbook with power level management
-
-### ✅ Documentation
-- Architecture blueprint (400+ lines)
-- Visual diagrams
-- Spooky terminology reference
-- Per-app setup guides
-
-### ✅ Kiro Integration
-- Complete specs (requirements, design, tasks)
-- Steering rules with spooky guidelines
-- Pre-generate hook with ASCII art
-
-### ✅ Developer Experience
-- Quick-start scripts
-- Comprehensive READMEs
-- Type-safe patterns
-- Consistent error handling
+### Quality and Design
+- **Creative Theme**: Spooky Halloween integration
+- **Professional Code**: Production-ready quality
+- **Comprehensive Docs**: 1000+ lines
+- **Type-safe**: TypeScript + Zod throughout
 
 ---
 
-## 🎬 Demo Highlights
+## 🎬 Demo
 
-1. **Architecture Documentation** - Comprehensive blueprint
-2. **app-tasks** - Clean task manager
-3. **app-grimoire** - Immersive spellbook with dark theme
-4. **Code Comparison** - Identical patterns, different domains
-5. **Pre-Generate Hook** - Random ASCII art
-6. **Spooky Terminology** - Mystical comments throughout
+### app-tasks (Task Manager)
+1. Create new tasks
+2. Update task status (pending → in-progress → completed)
+3. Edit task details
+4. Delete completed tasks
 
----
-
-## 🏆 Why This Skeleton?
-
-1. **Battle-Tested**: Proven across 2 real applications
-2. **Well-Documented**: 400+ lines of architecture docs
-3. **Kiro-Optimized**: Specs, steering, hooks included
-4. **Type-Safe**: End-to-end TypeScript + Zod
-5. **Consistent**: 100% identical patterns
-6. **Fun**: Spooky theme adds personality 🎃
-7. **Production-Ready**: Error handling, validation, clean code
+### app-grimoire (Spellbook) 🔮
+1. Inscribe new spells with power levels
+2. View grimoire with star ratings
+3. Transform existing spells
+4. Banish spells from existence
+5. Experience immersive dark theme
 
 ---
 
 ## 🤝 Contributing
 
 This is a hackathon submission, but feel free to:
-- Fork and adapt for your own projects
+- Fork and adapt for your projects
 - Use the skeleton as a starting point
 - Learn from the architectural patterns
-- Add your own spooky twist! 👻
+- Add your own creative twist!
 
 ---
 
 ## 📄 License
 
-MIT License - Feel free to use this skeleton for your own projects!
+MIT License - Free to use for your own projects!
 
 ---
 
 ## 🎃 Acknowledgments
 
-Built for the **Skeleton Crew Hackathon 2024** with:
+Built for **Kiroween Hackathon 2025** with:
 - ❤️ Love for clean architecture
 - 👻 Spooky Halloween spirit
 - 🔮 Mystical coding practices
-- ✨ A touch of magic
+- ✨ Kiro AI-powered development
+
+---
+
+## 📞 Contact
+
+- **GitHub**: [YOUR-USERNAME](https://github.com/slytechiefrommagentashore)
+- **Hackathon**: [Kiroween 2025](https://kiroween.devpost.com/)
 
 ---
 
@@ -481,4 +374,4 @@ Built for the **Skeleton Crew Hackathon 2024** with:
 
 ---
 
-*For detailed submission information, see [SKELETON-CREW-SUBMISSION.md](SKELETON-CREW-SUBMISSION.md)*
+*Built with [Kiro](https://kiro.ai) - The AI-powered IDE that makes development magical*

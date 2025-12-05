@@ -1,0 +1,74 @@
+{
+    "name": "kiroween-skeleton-core",
+    "description": "Universal fullstack boilerplate for Express + Prisma + React + Vite. Designed to generate new apps consistently.",
+    "tasks": [{
+            "id": "backend-structure",
+            "description": "Create a clean Express backend architecture.",
+            "output": {
+                "folders": [
+                    "backend/src/config",
+                    "backend/src/modules",
+                    "backend/src/common",
+                    "backend/prisma"
+                ],
+                "files": [
+                    "backend/src/server.ts",
+                    "backend/src/app.ts",
+                    "backend/src/config/env.ts",
+                    "backend/src/common/error.ts",
+                    "backend/src/common/response.ts",
+                    "backend/prisma/schema.prisma"
+                ]
+            },
+            "requirements": [
+                "Express server with centralized error handling",
+                "Prisma schema with SQLite as default",
+                "Environment manager using dotenv",
+                "Reusable API response helpers",
+                "Module pattern: each module has controller, service, router, schema"
+            ]
+        },
+
+        {
+            "id": "frontend-structure",
+            "description": "Create a reusable React + Vite architecture.",
+            "output": {
+                "folders": [
+                    "frontend/src/components",
+                    "frontend/src/hooks",
+                    "frontend/src/lib",
+                    "frontend/src/pages",
+                    "frontend/src/styles"
+                ],
+                "files": [
+                    "frontend/src/main.tsx",
+                    "frontend/src/App.tsx",
+                    "frontend/src/lib/api.ts",
+                    "frontend/tailwind.config.js",
+                    "frontend/index.html"
+                ]
+            },
+            "requirements": [
+                "React + Vite setup",
+                "TailwindCSS configured",
+                "Reusable UI kit components (Button, Input, Form, Card)",
+                "Global API client configured",
+                "Error boundary for frontend"
+            ]
+        },
+
+        {
+            "id": "shared-contracts",
+            "description": "Create backend-to-frontend shared types.",
+            "output": {
+                "folders": ["shared"],
+                "files": ["shared/types.ts"]
+            },
+            "requirements": [
+                "Define ApiResponse<T>",
+                "Shared error shape",
+                "Reusable pagination interface"
+            ]
+        }
+    ]
+}

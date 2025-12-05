@@ -1,0 +1,45 @@
+{
+    "name": "tasks-app",
+    "skeleton": "../skeleton-core",
+    "description": "A minimal task manager demonstrating reusability of the core boilerplate.",
+    "modules": [{
+        "name": "tasks",
+        "backend": {
+            "schema": {
+                "model": "Task",
+                "fields": {
+                    "id": "String @id @default(cuid())",
+                    "title": "String",
+                    "status": "String @default(\"pending\")",
+                    "createdAt": "DateTime @default(now())"
+                }
+            },
+            "endpoints": [{
+                    "method": "GET",
+                    "path": "/tasks"
+                },
+                {
+                    "method": "POST",
+                    "path": "/tasks"
+                },
+                {
+                    "method": "PUT",
+                    "path": "/tasks/:id"
+                },
+                {
+                    "method": "DELETE",
+                    "path": "/tasks/:id"
+                }
+            ]
+        },
+        "frontend": {
+            "pages": [
+                "TaskListPage",
+                "CreateTaskPage"
+            ],
+            "components": [
+                "TaskCard"
+            ]
+        }
+    }]
+}

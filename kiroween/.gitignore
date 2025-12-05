@@ -1,0 +1,27 @@
+# Dependencies (The big stuff to ignore)
+node_modules/
+**/node_modules/
+
+# Environment Variables (Security risk - keep these local!)
+.env
+.env.local
+.env.*
+
+# Build Outputs (Generated code)
+dist/
+build/
+out/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/

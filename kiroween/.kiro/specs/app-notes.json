@@ -1,0 +1,47 @@
+{
+    "name": "notes-app",
+    "skeleton": "../skeleton-core",
+    "description": "A simple CRUD note-taking app demonstrating reuse of the skeleton.",
+    "modules": [{
+        "name": "notes",
+        "backend": {
+            "schema": {
+                "model": "Note",
+                "fields": {
+                    "id": "String @id @default(cuid())",
+                    "title": "String",
+                    "content": "String",
+                    "createdAt": "DateTime @default(now())"
+                }
+            },
+            "endpoints": [{
+                    "method": "GET",
+                    "path": "/notes"
+                },
+                {
+                    "method": "POST",
+                    "path": "/notes"
+                },
+                {
+                    "method": "PUT",
+                    "path": "/notes/:id"
+                },
+                {
+                    "method": "DELETE",
+                    "path": "/notes/:id"
+                }
+            ]
+        },
+        "frontend": {
+            "pages": [
+                "NotesListPage",
+                "CreateNotePage",
+                "EditNotePage"
+            ],
+            "components": [
+                "NoteCard",
+                "NoteEditor"
+            ]
+        }
+    }]
+}
